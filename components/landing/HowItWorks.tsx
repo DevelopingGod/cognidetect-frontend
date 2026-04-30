@@ -9,7 +9,7 @@ const steps = [
     title: "Answer the Questionnaire",
     subtitle: "Stream A — Structured",
     desc: "27 DSM-5 aligned questions scored on a 5-point frequency scale. Model evaluates your responses and flags potential risk domains.",
-    detail: "Random Forest · 27 DSM-5 items",
+    detail: "ML on 27 DSM-5 items",
   },
   {
     number: "02",
@@ -17,7 +17,7 @@ const steps = [
     title: "Voice & Text Interview",
     subtitle: "Stream B — Unstructured",
     desc: "AI-Based follow-up questions based on your symptom flags. Answer by voice or text.",
-    detail: "Mental-BERT · NLP analysis",
+    detail: "NLP analysis",
   },
   {
     number: "03",
@@ -25,7 +25,7 @@ const steps = [
     title: "Fusion Report",
     subtitle: "Meta-Fusion Ensemble",
     desc: "A trained model combines both streams to produce a final diagnosis and personalised suggestions.",
-    detail: "Meta-Fusion · 60/40 weighted blend",
+    detail: "Meta-Fusion with blend",
   },
 ];
 
