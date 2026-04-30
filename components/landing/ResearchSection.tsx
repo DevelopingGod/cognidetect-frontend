@@ -36,7 +36,7 @@ export default function ResearchSection() {
         <div className="text-center mb-16">
           <div className="badge-purple mx-auto mb-4">Peer-Reviewed Research</div>
           <h2 className="section-title">
-            Published at <span className="gradient-text">IEEE INSECT-2026</span>
+            Accepted and TBP at <span className="gradient-text">IEEE INSECT-2026</span>
           </h2>
           <p className="section-subtitle max-w-xl mx-auto">
             CogniDetectAI was developed as a BE final-year project and accepted for publication at the
