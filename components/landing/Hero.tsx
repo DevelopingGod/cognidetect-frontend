@@ -32,7 +32,7 @@ export default function Hero({ language }: HeroProps) {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-purple/30 bg-brand-purple/10 text-brand-purple text-sm font-medium mb-8 animate-fade-in">
           <Zap size={14} />
-          <span>DSM-5 Aligned · Mental-BERT · Multi-Stream AI</span>
+          <span>DSM-5 Aligned · NLP + ML · Multi-Stream AI</span>
         </div>
 
         {/* Headline */}
