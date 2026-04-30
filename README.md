@@ -306,7 +306,6 @@ frontend/
 │       ├── Hero.tsx
 │       ├── ConditionCards.tsx
 │       ├── HowItWorks.tsx
-│       ├── PipelineSection.tsx
 │       └── ResearchSection.tsx
 │
 └── app/
