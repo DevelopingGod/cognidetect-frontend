@@ -58,8 +58,7 @@ export default function ResearchSection() {
                 <span className="badge-purple">AI · Mental Health</span>
               </div>
               <h3 className="font-bold text-lg mb-1 leading-snug">
-                CogniDetectAI: An AI-Powered Clinical Decision Support System for
-                Psychiatric Screening Using Dual-Stream Multimodal Fusion
+                CogniDetectAI: Risk Screening of Neuro-Cognitive Disorders via AI-Based Multimodal Transformers.
               </h3>
               <p className="text-sm mb-3" style={{ color: "var(--text-muted)" }}>
                 Sankalp Indish, Dr. Monika Dangore, Aishwarya Borse, Rashi Madne
