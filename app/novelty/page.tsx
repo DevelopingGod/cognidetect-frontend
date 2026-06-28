@@ -47,6 +47,7 @@ const COMPARE = [
     feature: "Sycophancy — tells users what they want to hear",
     cogni: false,
     llm: true,
+    invert: true,
   },
   {
     feature: "Hallucination risk in clinical responses",
