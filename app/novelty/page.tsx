@@ -29,7 +29,7 @@ const COMPARE = [
     llm: false,
   },
   {
-    feature: "Deterministic scoring (same input = same output)",
+    feature: "Deterministic scoring (same input = valid output)",
     cogni: true,
     llm: false,
   },
@@ -47,19 +47,16 @@ const COMPARE = [
     feature: "Sycophancy — tells users what they want to hear",
     cogni: false,
     llm: true,
-    invert: true,
   },
   {
     feature: "Hallucination risk in clinical responses",
     cogni: false,
     llm: true,
-    invert: true,
   },
   {
-    feature: "Session personalisation that skews neutrality",
+    feature: "Session personalisation and motive understanding that skews neutrality",
     cogni: false,
     llm: true,
-    invert: true,
   },
   {
     feature: "Fully anonymous — no account or profile",
@@ -87,7 +84,7 @@ const STRENGTHS = [
   {
     icon: <Stethoscope size={20} className="text-brand-purple" />,
     title: "Validated by Medical Professionals",
-    body: "Two practising medical professionals — including a consulting psychiatrist — reviewed CogniDetectAI's diagnostic output against real patient profiles. They assessed clinical accuracy, DSM-5 alignment, and appropriateness of severity classifications before the system was accepted for publication.",
+    body: "Two  medical professionals - reviewed CogniDetectAI's diagnostic output against real patient profiles. They assessed clinical accuracy, DSM-5 alignment, and appropriateness of severity classifications before the system was accepted for publication.",
   },
   {
     icon: <HeartPulse size={20} className="text-brand-purple" />,
