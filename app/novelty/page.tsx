@@ -44,7 +44,7 @@ const COMPARE = [
     llm: false,
   },
   {
-    feature: "Sycophancy — tells users what they want to hear",
+    feature: "No Sycophancy — does not tells users what they want to hear",
     cogni: false,
     llm: true,
     invert: true,
